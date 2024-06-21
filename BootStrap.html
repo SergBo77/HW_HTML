@@ -7,9 +7,17 @@
 </head>
 <body>
     <h1 style="background-color: #007bff; color: #fff; text-align: center; padding-top: 50px;" >
-        <a class="navbar-brand" href="#">
-           <img src="Photos/bootstrap-logo.svg" alt="Logo" width="59" height="50" class="d-inline-block align-text-top">
+        <a class="navbar-brand d-flex justify-content-between align-items-center" href="#">
+            <span></span>
+            <img src="Photos/bootstrap-logo.svg" alt="Logo" width="59" height="50" class="d-inline-block align-text-top">
             СОЗДАНИЕ САЙТА ПРИ ПОМОЩИ BOOTSTRAP
+            <button type="button" class="btn btn-primary position-relative">
+              Профиль
+              <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">Новые уведомления</span>
+              </span>
+            </button>
+            <span></span>
         </a>
     </h1>
 
@@ -65,46 +73,117 @@
         <span class="visually-hidden">Следующий</span>
       </button>
     </div>
-<hr>
-<br>
+
+    <br><br>
+
+    <h1 style="text-align: center; background-color: #007bff; color: #fff; padding: 10px;">
+        НАШИ ЛУЧШИЕ СОТРУДНИКИ
+    </h1>
+
+    <br><br>
+
      <div class="container">
-         <div class = 'row'>
+         <div class='row'>
              <div class="cal-sm-12 col-md-6 col-lg-4">
                  <div class="card" style="width: 18rem;">
                       <img src="Photos/ABand.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">АНТОНИО БАНДЕРАС</h5>
+                        <h5 class="card-title d-flex justify-content-center">АНТОНИО БАНДЕРАС</h5>
                         <p class="card-text">Испанский актёр кино, телевидения, мюзиклов и озвучивания, кинорежиссёр.
                                              Известный своими работами в фильмах нескольких жанров.</p>
-                        <a href="#" class="btn btn-primary">Читать всю биографию</a>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Читать всю биографию</a>
                       </div>
                  </div>
+             </div>
+             <div class="cal-sm-12 col-md-6 col-lg-4">
                  <div class="card" style="width: 18rem;">
                       <img src="Photos/AJoly.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">АНДЖЕЛИНА ДЖОЛИ</h5>
+                        <h5 class="card-title d-flex justify-content-center">АНДЖЕЛИНА ДЖОЛИ</h5>
                         <p class="card-text">Американская актриса кино, телевидения и озвучивания, кинорежиссёр, сценаристка, продюсер, фотомодель, посол доброй воли ООН.</p>
-                        <a href="#" class="btn btn-primary">Читать всю биографию</a>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Читать всю биографию</a>
                       </div>
                  </div>
+             </div>
+             <div class="cal-sm-12 col-md-6 col-lg-4">
                  <div class="card" style="width: 18rem;">
                       <img src="Photos/JonTr.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">ДЖОН ТРАВОЛТА</h5>
+                        <h5 class="card-title d-flex justify-content-center">ДЖОН ТРАВОЛТА</h5>
                         <p class="card-text">Американский актёр, танцор и певец, лауреат премий «Золотой глобус» и «Эмми», а также двухкратный номинант на «Оскар».</p>
-                        <a href="#" class="btn btn-primary">Читать всю биографию</a>
+                        <a href="#" class="btn btn-primary d-flex justify-content-center">Читать всю биографию</a>
                       </div>
                  </div>
              </div>
          </div>
      </div>
+    <br><br>
 
-     <div class="container">
-       <div class = 'cal-sm-12'>
-        <h1 style="background-color: #007bff; color: #fff; text-align: center;"> СОЗДАНИЕ САЙТА ПРИ ПОМОЩИ BOOTSTRAP</h1>
+    <h1 style="text-align: center; background-color: #007bff; color: #fff; padding: 10px;">
+        ИНТЕРЕСНАЯ ИНФОРМАЦИЯ
+    </h1>
 
-       </div>
-     </div>
+    <br> <br>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ИНТЕРЕСНЫЙ ФАКТ 1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Вселенная содержит более 100 миллиардов галактик, каждая из которых в свою очередь содержит миллиарды звезд.
+                  Масштабы космоса поражают своим разнообразием и бесконечностью.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ИНТЕРЕСНЫЙ ФАКТ 2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">В космосе нет звука из-за отсутствия среды, способной передавать звуковые волны.
+                  Поэтому в космическом пространстве невозможно услышать звуки, которые мы привыкли слышать на Земле.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                ИНТЕРЕСНЫЙ ФАКТ 3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Астронавты испытывают эффект невесомости во время нахождения на орбите.
+                  Невесомость происходит из-за свободного падения вокруг Земли, когда астронавты находятся в состоянии постоянного падения вместе с космическим кораблем.
+              </div>
+            </div>
+          </div>
+    </div>
+    <br><br>
+
+    <footer style="background-color: #f8f9fa; padding: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Контактная информация</h3>
+                <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+                <p>Email: example@example.com</p>
+                <p>Адрес: ул. Примерная, д. 123</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Социальные сети</h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" target="_blank">Facebook</a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank">Twitter</a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
